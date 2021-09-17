@@ -2,11 +2,9 @@
   "name": "web-server",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
-  "extensions": "js,hbs",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
